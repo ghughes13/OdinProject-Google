@@ -1,0 +1,104 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.upleft, .upright, .downleft, .downright {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.main img {
+  padding: 20px;
+  padding-top: 200px;
+}
+
+input {
+  max-width: 575px;
+  width: 100%;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0px 2px 15px -5px rgba(0,0,0,0.47)
+}
+
+ul {
+  position: fixed;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.upleft {
+  left: 0;
+  top: 0;
+}
+
+.upright {
+  right: 0;
+  top: 0;
+  margin-top: 0px;
+}
+
+.downleft, .downright {
+  margin-bottom: 10px;
+}
+
+.downleft {
+  left: 0;
+  bottom: 0;
+}
+
+.downright {
+  right: 0;
+  bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  margin-right: 10px;
+  margin-right: 10px;
+}
+
+li img {
+  width: 20px;
+  height: 20px;
+}
+
+li button {
+  border-radius: 5px;
+  background-color: rgb(70, 87, 213);
+  color: white;
+}
+
+button {
+  margin-top: 10px;
+  background: rgb(242, 242, 242);
+  color: rgb(145, 145, 145);
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top: 13px;
+  border: none;
+  padding: 10px;
+  border-radius: 1px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+footer {
+  background: rgb(239, 240, 239);
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+
+}
